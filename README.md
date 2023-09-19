@@ -1,8 +1,31 @@
-# React + Vite
+# puerto carlos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**para ingresar al clouster**
 
-Currently, two official plugins are available:
+-darle en las flechita esquina inferior izquierda
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-despues darle en "conect to host"
+
+-se coloca eso "ssh miguel@192.168.129.72"
+
+- le vuelvo a dar en las flechas de abajo
+
+- listo
+
+  # puertos
+
+  
+
+## . 5096-5100
+
+
+
+### PARA MATAR UN PUERTO
+
+- Para buscar si el puerto esta siendo utilizado
+
+**sudo lsof -i :5100**
+
+- En caso de que este utilizado y se quiera matar 
+
+**sudo kill -9 "PID"** -el PID lo sacamos del comando anterior
